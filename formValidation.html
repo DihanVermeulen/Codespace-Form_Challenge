@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Challenge</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+    <div class="bg-image"></div>
+    <div class="bg-text">
+        <header>
+            <h1>Registration form</h1>
+        </header>
+        <form class="form">
+
+            <div>
+                <label>User id: </label>
+                <input class="input" type="text" required>
+            </div>
+
+            <div>
+                <label>Password: </label>
+                <input class="input" type="password" required> 
+            </div>
+
+            <div>
+                <label>Name: </label>
+                <input class="input" type="text" required>
+            </div>
+
+            <div>
+                <label>Address: </label>
+                <input class="input" type="text">
+            </div>
+            
+            
+            <div>
+                <label>Country: </label>
+                <select class="input" required>
+                    <option>South Africa</option>
+                    <option>Australia</option>
+                    <option>China</option>
+                    <option>North America</option>
+                    <option>South America</option>
+                    <option>South Asia</option>
+                </select>
+            </div>
+            
+            <div>
+                <label>ZIP Code: </label>
+                <input class="input" type="number">
+            </div>
+            
+            <div>
+                <label>Email: </label>
+                <input class="input" type="email">
+            </div>
+            
+            <div>
+                <label>Sex: </label>
+                <input class="input" id="male" type="radio" name="sex" value="male">
+                <label for="male">Male</label>
+                <input class="input" id="female" type="radio" name="sex" value="female">
+                <label for="female">Female</label>
+
+            </div>
+            
+            <div>
+                <input class="input" type="submit">
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>
